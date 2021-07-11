@@ -39,6 +39,8 @@ long long int percorri(int N, long long int L, long long int D[], long long int 
 		stradaLago.push_back(P[i]);
 	}
 	passerella.push_back(L - lastPasserella);
+	delete[] D;
+	delete[] P;
 
 #ifdef DEBUG
 	cout << "LIST: " << endl;
